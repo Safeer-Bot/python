@@ -3,3 +3,4 @@ print("Accessing a element using key:")
 print(Dict['name'])
 print("Accessing a element using key:")
 print(Dict[1])
+

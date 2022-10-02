@@ -1,3 +1,8 @@
-Dict = {1: 'Geeks', 'name': 'For', 3: 'Geeks'}
-print("Accessing a element using get:")
-print(Dict.get(3))
+# Creating a Dictionary
+Dict = {'Dict1': {1: 'Geeks'},
+        'Dict2': {'Name': 'For'}}
+  
+# Accessing element using key
+print(Dict['Dict1'])
+print(Dict['Dict1'][1])
+print(Dict['Dict2']['Name'])
